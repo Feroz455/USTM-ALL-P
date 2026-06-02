@@ -57,28 +57,39 @@ STING DSS is a full-stack clinical research platform that integrates five AI/ML 
 <tr>
 <td width="50%">
 
-**Tab 3 · 250-Day ODE Trajectory**
-![Tab 3 — ODE Simulation trajectory chart](docs/images/ss_tab3.png)
+**Tab 2 · Patient & Treatment Setup**
+![Tab 2 — Patient and Treatment Setup](docs/images/ss_tab2.png)
 
 </td>
 <td width="50%">
 
-**Tab 4 · GA Optimal Dose Plan**
-![Tab 4 — GA Dose Plan chart](docs/images/ss_tab4.png)
+**Tab 3 · 250-Day ODE Trajectory**
+![Tab 3 — ODE Simulation trajectory chart](docs/images/ss_tab3.png)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**Tab 5 · SHAP XAI Explanations**
-![Tab 5 — SHAP feature attributions](docs/images/ss_tab5.png)
+**Tab 4 · GA Optimal Dose Plan**
+![Tab 4 — GA Dose Plan chart](docs/images/ss_tab4.png)
 
 </td>
 <td width="50%">
 
+**Tab 5 · SHAP XAI Explanations**
+![Tab 5 — SHAP feature attributions](docs/images/ss_tab5.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **Tab 6 · 200 Synthetic Patients (5-Class Risk)**
 ![Tab 6 — Synthetic patient cohort grid](docs/images/ss_tab6.png)
+
+</td>
+<td width="50%">
 
 </td>
 </tr>
