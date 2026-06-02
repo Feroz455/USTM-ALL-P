@@ -23,7 +23,7 @@
 
 **Digital Twin-Oriented Deep Learning · TÜBİTAK 1001 · Project No: 123E383**
 
-[**Live Demo**](http://37.148.208.183:8091) · [**Documentation**](#documentation) · [**Publications & Data**](https://sting.sdu.edu.tr) · [**PI's GitHub**](https://github.com/utkukose) · [**Team**](#team)
+[**Live**](http://37.148.208.183:8091) · [**Documentation**](#documentation) · [**Publications & Data**](https://sting.sdu.edu.tr) · [**PI's GitHub**](https://github.com/utkukose) · [**Team**](#team)
 
 </div>
 
@@ -220,7 +220,7 @@ STING_DSS/
 ### Prerequisites
 
 - Docker ≥ 24 and Docker Compose ≥ 2.20
-- 4 GB RAM recommended (8 GB for GAN training)
+- 16 GB RAM recommended (32 GB for GAN training)
 - Pre-trained model files (see [Model Files](#model-files))
 
 ### 1. Clone and configure
@@ -350,8 +350,6 @@ DATA_DIR=/app/data                        # Model and results directory
 |----------|----------|-------------|
 | [`docs/user_guide_en.pdf`](docs/) | English | Full user guide with step-by-step screenshots |
 | [`docs/user_guide_tr.pdf`](docs/) | Turkish | Türkçe kullanım kılavuzu |
-| [`docs/technical_report.pdf`](docs/) | Turkish | System architecture and API catalogue |
-| [`docs/results_report.pdf`](docs/) | Turkish | Detailed findings with numerical results |
 
 ---
 
@@ -382,7 +380,7 @@ For an up-to-date list of publications, datasets, and other citable outputs asso
 
 > **[https://sting.sdu.edu.tr](https://sting.sdu.edu.tr)**
 
-The project is ongoing and new outputs are regularly added. The project website is the authoritative source for citation information, BibTeX entries, and data access requests.
+New outputs (publications, datasets) are regularly added. The project website is the authoritative source for citation information and data access requests.
 
 ---
 
@@ -390,11 +388,11 @@ The project is ongoing and new outputs are regularly added. The project website 
 
 | Name | Role | Affiliation | Links |
 |------|------|-------------|-------|
-| **Prof. Dr. Utku Köse** | Principal Investigator | Süleyman Demirel University (SDU) / University of North Dakota | [GitHub](https://github.com/utkukose) · [Web](https://utkukose.com) · [ORCID](https://orcid.org/0000-0002-9652-6415) |
-| **Prof. Dr. Gözde Özkan Tükel** | Co-Investigator | SDU | — |
-| **Dr. İlhan Uysal** | Researcher | Mehmet Akif Ersoy University | — |
-| **Lect. Osman Ceylan** | Researcher | SDU | — |
-| **Lect. Emine Betül Sürücü** | Researcher | SDU | — |
+| **Prof. Dr. Utku Köse** | Principal Investigator / Developer | Süleyman Demirel University, Turkey / University of North Dakota, USA / VelTech, India / Universidad Panamericana, Mexico | [GitHub](https://github.com/utkukose) · [Web](https://utkukose.com) · [ORCID](https://orcid.org/0000-0002-9652-6415) |
+| **Prof. Dr. Gözde Özkan Tükel** | Researcher / Developer | Süleyman Demirel University, Turkey | — |
+| **Dr. İlhan Uysal** | Researcher / Developer | Burdur Mehmet Akif Ersoy University, Turkey | — |
+| **Lect. Osman Ceylan** | Researcher / Developer | Isparta Applied Sciences University, Turkey | — |
+| **Lect. Emine Betül Sürücü** | Researcher / Developer | Süleyman Demirel University, Turkey | — |
 
 ---
 
@@ -420,7 +418,7 @@ This project is licensed under the **Apache License 2.0**. See [`LICENSE`](LICEN
 
 **STING DSS** · TÜBİTAK 1001 · Project No: 123E383 · Süleyman Demirel University · 2026
 
-[github.com/tubitaksting](https://github.com/tubitaksting) · [sting.sdu.edu.tr](https://sting.sdu.edu.tr) · PI: [github.com/utkukose](https://github.com/utkukose) · [utkukose.com](https://utkukose.com) · [ORCID 0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415)
+[github.com/tubitaksting](https://github.com/tubitaksting) · [sting.sdu.edu.tr](https://sting.sdu.edu.tr)
 
 *Advancing pediatric leukemia research through digital twin-oriented deep learning.*
 
