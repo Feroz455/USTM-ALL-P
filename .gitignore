@@ -25,11 +25,12 @@ backend/.env
 *.env.production
 secrets/
 
-# ── Model dosyaları (büyük binary — ayrıca paylaşılacak) ──
+# ── Model dosyaları ──
 backend/data/models/*.h5
 backend/data/models/*.pth
 backend/data/models/*.pkl
 backend/data/models/*.json
+!backend/data/models/alldrugs_gnn_scaler.json
 backend/data/models/*.csv
 
 # ── GA / GAN veri havuzları ───────────────────────────────
