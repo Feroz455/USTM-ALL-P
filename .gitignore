@@ -96,3 +96,12 @@ Thumbs.db
 .coverage
 htmlcov/
 coverage.xml
+.venv/
+2
+__pycache__/
+3
+*.pyc
+4
+*.log
+5
+*.tmp

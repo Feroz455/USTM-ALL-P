@@ -1,0 +1,198 @@
+{
+  "gemex_version": "1.2.2",
+  "patient_id": "USTM_0371",
+  "maintenance_day": 203,
+  "selection_reason": "Requested representative observation",
+  "current_anc": 1.727104808432549,
+  "actual_future_anc": 1.6701383504044736,
+  "random_forest_prediction": 1.679521935359768,
+  "direct_model_prediction": 1.679521935359768,
+  "expected_previous_prediction": 1.679522,
+  "prediction_difference": 6.464023205587921e-08,
+  "training_patients": 40,
+  "testing_patients": 10,
+  "patient_overlap": 0,
+  "training_observations": 560,
+  "testing_observations": 140,
+  "transformed_feature_count": 21,
+  "transformed_feature_names": [
+    "age",
+    "weight_kg",
+    "height_cm",
+    "bsa",
+    "tpmt",
+    "vitamin_d",
+    "diet_score",
+    "exercise_score",
+    "infection",
+    "baseline_inflammation",
+    "maintenance_week",
+    "current_wbc",
+    "current_anc",
+    "current_vipn",
+    "previous_anc",
+    "anc_slope_7d",
+    "dose_6mp_mg",
+    "dose_mtx_mg",
+    "dose_vcr_mg",
+    "sex_F",
+    "sex_M"
+  ],
+  "model_estimator_type": "unavailable",
+  "stored_gemex_task": "regression",
+  "gemex_model_type": "unavailable",
+  "gemex_reported_prediction": 0,
+  "fim_quality": "poor",
+  "manifold_curvature": 0.0,
+  "maximum_absolute_gsf": 9.99999999998662e-13,
+  "mean_absolute_gsf": 1.507509213880948e-13,
+  "nonzero_gsf_count": 0,
+  "gsf_numerical_threshold": 1e-10,
+  "task_is_regression": true,
+  "fim_is_not_poor": false,
+  "gsf_scores_are_nontrivial": false,
+  "gemex_numerically_informative": false,
+  "gemex_configuration": {
+    "gemex_version": "1.2.2",
+    "n_geodesic_steps": 10,
+    "n_reference_samples": 20,
+    "fim_epsilon": 0.05,
+    "fim_epsilon_auto": false,
+    "fim_local_avg": true,
+    "fim_local_sigma": 0.1,
+    "fim_local_n": 16,
+    "interaction_order": 1,
+    "gsf_normalise": false,
+    "random_state": 42,
+    "task": "regression",
+    "compute_fas": false,
+    "compute_btd": false,
+    "random_forest_n_jobs": 1,
+    "gsf_numerical_threshold": 1e-10
+  },
+  "gemex_summary": "GEMEX Explanation Summary\n==========================================\nPrediction : 0  (p=1.000)\nUncertainty: low  (curvature=0.000)\nGeodesic length: 0.0001\nFIM quality    : poor  [WARNING: low — try fim_epsilon=0.05 or interaction_order=1]\n\nTop features (GSF):\n  [to] height_cm                  +0.0000\n  [to] vitamin_d                  +0.0000\n  [to] dose_6mp_mg                +0.0000\n  [to] dose_mtx_mg                +0.0000\n  [to] maintenance_week           +0.0000\n\nTop interactions (holonomy):\n  age x weight_kg: +0.0000  (antagonism)\n  age x height_cm: +0.0000  (antagonism)\n  age x bsa: +0.0000  (antagonism)",
+  "top_five_features": "[('height_cm', np.float64(9.99999999998662e-13)), ('vitamin_d', np.float64(5.283921933078423e-13)), ('dose_6mp_mg', np.float64(4.2289680156661224e-13)), ('dose_mtx_mg', np.float64(3.3119273727454445e-13)), ('maintenance_week', np.float64(3.2527881040848627e-13))]",
+  "top_three_interactions": "[('age', 'weight_kg', np.float64(0.0)), ('age', 'height_cm', np.float64(0.0)), ('age', 'bsa', np.float64(0.0))]",
+  "result_dictionary": {
+    "prediction": 0,
+    "predicted_class": "0",
+    "prediction_proba": [
+      1.0,
+      0.0
+    ],
+    "gsf_scores": [
+      5.1115241635619675e-14,
+      2.57899628252445e-13,
+      9.99999999998662e-13,
+      9.389246756185749e-15,
+      1.858736059477065e-14,
+      5.283921933078423e-13,
+      3.104089219326693e-14,
+      2.1375464683986217e-14,
+      3.2527881040848585e-14,
+      1.940055762079183e-15,
+      3.2527881040848627e-13,
+      4.204781180249672e-14,
+      1.786351786588472e-15,
+      1.6815304804353473e-15,
+      3.050975480445248e-15,
+      6.910467524333726e-16,
+      4.2289680156661224e-13,
+      3.3119273727454445e-13,
+      1.0525876993159851e-14,
+      3.717472118954126e-14,
+      3.717472118954122e-14
+    ],
+    "top_features": [
+      [
+        "height_cm",
+        9.99999999998662e-13
+      ],
+      [
+        "vitamin_d",
+        5.283921933078423e-13
+      ],
+      [
+        "dose_6mp_mg",
+        4.2289680156661224e-13
+      ],
+      [
+        "dose_mtx_mg",
+        3.3119273727454445e-13
+      ],
+      [
+        "maintenance_week",
+        3.2527881040848627e-13
+      ]
+    ],
+    "top_interactions": [
+      [
+        "age",
+        "weight_kg",
+        0.0
+      ],
+      [
+        "age",
+        "height_cm",
+        0.0
+      ],
+      [
+        "age",
+        "bsa",
+        0.0
+      ]
+    ],
+    "rst_eigenvalues": [
+      0.36019377925314944,
+      0.19801980198019825,
+      0.19801980198019825,
+      0.19801980198019822,
+      0.1980198019801981
+    ],
+    "explained_variance_ratio": [
+      0.3125941363393807,
+      0.17185146591493786,
+      0.17185146591493786,
+      0.17185146591493783,
+      0.17185146591493775
+    ],
+    "manifold_curvature": 0.0,
+    "uncertainty_level": "low",
+    "confidence_score": 1.0,
+    "geodesic_length": 0.000142350952774191
+  },
+  "public_result_attributes": [
+    "btd",
+    "class_names",
+    "confidence_score",
+    "config",
+    "data_type",
+    "explained_variance_ratio",
+    "fas",
+    "feature_names",
+    "fim_matrix",
+    "fim_quality",
+    "geodesic_lengths",
+    "geodesic_path",
+    "gsf_scores",
+    "gsf_uncertainty",
+    "holonomy_angles",
+    "instance",
+    "manifold_curvature",
+    "plot",
+    "prediction",
+    "prediction_proba",
+    "pti_matrix",
+    "rct",
+    "rst_eigenvalues",
+    "rst_eigenvectors",
+    "summary",
+    "to_dict",
+    "top_features",
+    "top_interactions",
+    "top_triplets",
+    "uncertainty_level",
+    "x_baseline",
+    "x_flat"
+  ]
+}

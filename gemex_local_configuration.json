@@ -1,0 +1,18 @@
+{
+  "gemex_version": "1.2.2",
+  "n_geodesic_steps": 10,
+  "n_reference_samples": 20,
+  "fim_epsilon": 0.05,
+  "fim_epsilon_auto": false,
+  "fim_local_avg": true,
+  "fim_local_sigma": 0.1,
+  "fim_local_n": 16,
+  "interaction_order": 1,
+  "gsf_normalise": false,
+  "random_state": 42,
+  "task": "regression",
+  "compute_fas": false,
+  "compute_btd": false,
+  "random_forest_n_jobs": 1,
+  "gsf_numerical_threshold": 1e-10
+}
