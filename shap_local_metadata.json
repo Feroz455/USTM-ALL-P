@@ -1,0 +1,10 @@
+{
+  "patient_id": "USTM_0371",
+  "maintenance_day": 203.0,
+  "maintenance_week": 10,
+  "current_anc": 1.727104808432549,
+  "future_anc_7d": 1.6701383504044736,
+  "predicted_future_anc": 1.6795219353597683,
+  "base_value": 1.6927543321585246,
+  "selection_reason": "Test observation closest to the median Random Forest prediction"
+}
